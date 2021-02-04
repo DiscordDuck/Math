@@ -3,6 +3,7 @@
  * This code was made with JavaScript and discord.js
  * Token was removed as it gives access to original bot
  * Bot logo from flaticon.com */
+const { math } = require('../../Bots/tokens.js');
 
 const Constants = require('./node_modules/discord.js/src/util/Constants.js');
 Constants.DefaultOptions.ws.properties.$browser = 'Discord iOS';
@@ -86,4 +87,4 @@ bot.on('message', async message => {
 	}
 });
 
-bot.login('ODA2NjI4NDY2MTk5NDk0Njk2.YBsNTA.F66RgtTKkWkLzVutAWUxqyvUy18');
+bot.login(math);
