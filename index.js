@@ -1,4 +1,4 @@
-/** This bot has three commands within the commands folder: isPrime, listFactors, apsearch
+/** This bot has four commands within the commands folder: isPrime, listFactors, apsearch, and primefactor
  * Their names are self-explanatory of what they do
  * This code was made with JavaScript and discord.js
  * Token was removed as it gives access to original bot
